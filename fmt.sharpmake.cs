@@ -7,7 +7,7 @@ public class FmtProject : BaseCppProject
     public FmtProject()
     {
         Name = "fmt";
-        SourceRootPath = @"[project.SharpmakeCsPath]\src";
+        // SourceRootPath = @"[project.SharpmakeCsPath]\include";
         AddTargets(TargetUtil.DefaultTarget);
     }
 
@@ -18,7 +18,7 @@ public class FmtProject : BaseCppProject
 
         conf.SolutionFolder = Constants.EXTERNAL_VS_CATEGORY;
 
-        conf.Output = Project.Configuration.OutputType.Lib;
+        conf.Output = Project.Configuration.OutputType.None;
         conf.TargetPath = @"[project.SharpmakeCsPath]\Out\Bin\[target.Platform]-[target.Optimization]";
         conf.IntermediatePath = @"[project.SharpmakeCsPath]\Out\Intermediate\[target.Platform]-[target.Optimization]";
         conf.IncludePaths.Add(@"[project.SharpmakeCsPath]\include");

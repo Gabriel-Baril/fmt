@@ -22,3 +22,4 @@ fmt.pc
 *.vcxproj
 *.vcxproj.filters
 out/
+x64
