@@ -18,3 +18,7 @@ build/
 cmake_install.cmake
 fmt-*.cmake
 fmt.pc
+
+*.vcxproj
+*.vcxproj.filters
+out/
