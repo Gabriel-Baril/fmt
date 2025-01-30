@@ -20,6 +20,7 @@ fmt-*.cmake
 fmt.pc
 
 *.vcxproj
+*.vcxproj.user
 *.vcxproj.filters
 out/
-x64
+x64/
