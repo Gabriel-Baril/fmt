@@ -6,7 +6,7 @@ public class HdnCodeExternalFmtProject : BaseCppProject
 {
     public HdnCodeExternalFmtProject()
     {
-        Name = "hdn.code.external.fmt";
+        Name = "dm.code.external.fmt";
         // SourceRootPath = @"[project.SharpmakeCsPath]\include";
         AddTargets(TargetUtil.DefaultTarget);
     }
