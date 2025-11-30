@@ -2,9 +2,9 @@ using System.IO; // For Path.Combine
 using Sharpmake; // Contains the entire Sharpmake object library.
 
 [Generate]
-public class HdnCodeExternalFmtProject : BaseCppProject
+public class DmCodeExternalFmtProject : BaseCppProject
 {
-    public HdnCodeExternalFmtProject()
+    public DmCodeExternalFmtProject()
     {
         Name = "dm.code.external.fmt";
         // SourceRootPath = @"[project.SharpmakeCsPath]\include";
